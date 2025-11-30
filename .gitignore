@@ -1,0 +1,73 @@
+# ------------------------------
+# Python cache / build folders
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# VS Code / PyCharm / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Environment & Secrets
+# ------------------------------
+.env
+*.env
+*.key
+*.pem
+
+# ------------------------------
+# Streamlit specific
+# ------------------------------
+.streamlit/
+
+# ------------------------------
+# Project data / PDFs
+# ------------------------------
+*.pdf
+data/
+datasets/
+documents/
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+
+# ------------------------------
+# Jupyter notebooks checkpoints
+# ------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------
+# Cache folders created by libraries
+# ------------------------------
+cache/
+.faiss_index/
+.vector_store/
+
+# HuggingFace cache
+~/.cache/huggingface/
+
+# ------------------------------
+# Temporary files
+# ------------------------------
+tmp/
+temp/
+*.tmp
