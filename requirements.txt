@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+faiss-cpu
+# langchain-related packages (install names may differ)
+langchain
+langchain_community
+langchain_huggingface
+langchain_groq
+langchain_core
+langchain_classic
